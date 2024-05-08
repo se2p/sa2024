@@ -19,3 +19,13 @@ count lines of code, and the second on is a basic code clone detection
 technique, capable of detecting type 1 clones.
 
 [Markdown Export](rendered/1%20Analysis%20Basics.md)
+
+
+### 2: On the Naturalness of Code: Token-level analysis
+
+This chapter looks at the process of converting source code into token streams,
+and applying different types of analyses on these, such as code clone detection
+or code completion based on language models.
+
+[Markdown Export](rendered/2%20Naturalness%20of%20Code.md)
+
