@@ -29,3 +29,14 @@ or code completion based on language models.
 
 [Markdown Export](rendered/2%20Naturalness%20of%20Code.md)
 
+
+### 3: Syntax-based analysis
+
+This chapter considers syntactic information on top of the lexical
+information provided by the tokens. That is, it considers what language
+constructs the tokens are used in, by looking at the abstract syntax tree.
+We further look at how we can automatically generate parsers using Antlr,
+and then use these to translate programs and to create abstract syntax
+trees. We also use the Abstract Syntax Trees to do some basic linting.
+
+[Markdown Export](rendered/3%20Syntax-based%20Analysis.md)
