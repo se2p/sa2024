@@ -54,7 +54,7 @@ dependence analysis.
 [Markdown Export](rendered/4%20Controlflow_Analysis.md)
 
 
-### 6: Data-flow analysis (Part 1)
+### 5: Data-flow analysis (Part 1)
 
 This chapter looks at how to track the propagation of data throughout the
 control flow of the program. We consider some classical data-flow analyses
@@ -65,7 +65,7 @@ then allows us to construct a data-dependence graph.
 [Markdown Export](rendered/5%20Dataflow%20Analysis.md)
 
 
-### 7: Data-flow analysis (Part 2): Abstract interpretation
+### 6: Data-flow analysis (Part 2): Abstract interpretation
 
 This chapter continues with dataflow analysis, and refines our iterative
 dataflow analysis algorithm from chapter 6 to the lattice-theoretic monotone
