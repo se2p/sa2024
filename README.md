@@ -102,3 +102,32 @@ code, the notebook focuses only on static slicing, although the concepts
 generalise well to dynamic slicing as covered in the lecture.
 
 [Markdown Export](rendered/8%20Program%20Dependence.md)
+
+
+### 9: Dynamic Analysis
+
+All previous chapters considered static analysis, now we move on to dynamic
+analysis. We start analysing Python code, since this can be executed easily
+within the notebooks. We consider two alternative ways to instrument
+programs such that we can create execution traces: (1) Modifying ASTs, and
+(2) using the VM's tracing functionality. Using these instrumentation
+approaches we implement a range of different example dynamic analyses.
+
+[Markdown Export](rendered/9%20Dynamic%20Analysis.md)
+
+
+### 10: (Dynamic) Symbolic Execution
+
+Symbolic execution represents execution paths as symbolic constraints over
+input variables. This can be used to generate test inputs that cover
+specific paths, or it can be used to check assertions and other properties
+of a program. Although recent progress on constraint solvers (SMT solvers in
+particular) has greatly improved the applicability of symbolic execution,
+there are fundamental limitations such as having to deal with loops, or
+black box function calls, which can, however, be overcome dynamically. The
+combination of dynamic and symbolic execution is known as dynamic symbolic
+execution, or concolic execution (concrete+symbolic). This chapter is based
+on Andreas Zeller's excellent [Fuzzing Book](https://www.fuzzingbook.org/html/ConcolicFuzzer.html)
+
+[Markdown Export](rendered/10%20Symbolic%20Execution.md)
+
